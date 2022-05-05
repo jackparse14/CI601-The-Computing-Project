@@ -1,0 +1,145 @@
+{
+    "name": "PlayerInputActions",
+    "maps": [
+        {
+            "name": "Mouse",
+            "id": "cf80c6e7-94f8-4296-a7f3-19aced437917",
+            "actions": [
+                {
+                    "name": "LeftClick",
+                    "type": "Button",
+                    "id": "68bfe2ff-e38e-4021-a765-c928067d42ce",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "RightClick",
+                    "type": "Button",
+                    "id": "06e0c4c9-8e87-4132-9bd7-a10c3296ef19",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "MousePos",
+                    "type": "Value",
+                    "id": "36f608f2-d9b7-4eaf-8489-2dd0304f7aa5",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "AltLeftClick",
+                    "type": "Button",
+                    "id": "d37d568a-0fe3-45a5-bc54-c049c0bf37dc",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "5e1df35b-6997-4729-bf6d-5408a4ecbf1f",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": "PlayerInputActions",
+                    "action": "LeftClick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ecd5b1b2-c2b6-4ce4-889d-fadce04c9fee",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": "PlayerInputActions",
+                    "action": "RightClick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c298f231-6645-4146-aa21-393249c3d0fb",
+                    "path": "<Mouse>/position",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": "PlayerInputActions",
+                    "action": "MousePos",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Button With One Modifier",
+                    "id": "c4b096bf-4688-4d68-8eca-7dd4a84c70da",
+                    "path": "ButtonWithOneModifier",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AltLeftClick",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "5115b991-15eb-4b57-bfb9-1b3c0b320643",
+                    "path": "<Keyboard>/alt",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AltLeftClick",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "button",
+                    "id": "fea758c5-bf79-4c9e-b3b0-7d88a880afab",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AltLeftClick",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        },
+        {
+            "name": "Keyboard",
+            "id": "35a6dc7a-8db8-4b17-bb98-faa5ff77ed58",
+            "actions": [
+                {
+                    "name": "I",
+                    "type": "Button",
+                    "id": "5cab7a64-880a-4676-8dc2-3a5344539028",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "6d3870f6-9bbd-434a-88b3-b4b51c36e93a",
+                    "path": "<Keyboard>/i",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "I",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "PlayerInputActions",
+            "bindingGroup": "PlayerInputActions",
+            "devices": []
+        }
+    ]
+}
